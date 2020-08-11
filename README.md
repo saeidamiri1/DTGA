@@ -14,7 +14,7 @@ To load the codes in R, run the following script.
 library(ggplot2)
 library(Biostrings)
 library(RCurl)
-????script <- getURL("https://raw.githubusercontent.com/saeidamiri1/DTGA/master/Rcode/need_dtga", ssl.verifypeer = FALSE)
+script <- getURL("https://raw.githubusercontent.com/saeidamiri1/DTGA/master/Rcode/need_dtga.R", ssl.verifypeer = FALSE)
 eval(parse(text = script))
  ```
 The ```dist_dtga()``` provides the dissimiliary matrix
@@ -28,7 +28,7 @@ The arguments are: ```z``` is the sequential difference, use the R's data frame 
 To show how run the code on data set, we generated simulated data using different designs, the datasets are 'xm_design1_2015-01-01.csv','xm_design2_2015-01-01.csv','xm_design3_2015-01-01.csv', 'xm_design1_2015-06-24.csv', 'xm_design2_2015-06-24.csv', and 'xm_design1_2015-06-24.csv', see [Amiri et al. (2020)]() for the details of generating these datasets.  Each data has 12 variables and 76 observations. 
 
 ```
-xm<-read.csv2('/Volumes/E/onlinedrive/Dropbox/mypaper/FCBDresearch/dissim_timeseries/codes/data/xm_design2_2015-06-24.csv)
+xm<-read.csv2('https://raw.githubusercontent.com/saeidamiri1/DTGA/master/data/xm_design1_2015-01-01.csv')
 xm<-xm[,-1]
 ```
 
