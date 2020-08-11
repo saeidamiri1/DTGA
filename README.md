@@ -50,7 +50,7 @@ plot(hclust(dist0))
 
 
 ## Estimate of K
-Our studis show in most case k=2, the size of categories, is sufficient to pick up the underlying pattern, you also can use the HD statistic to find the estimate the of k, the following codes plot HD vs k for a cluster of size 4.   
+Our studies show that in most cases, the size of category k=2 is sufficient to pick up the underlying pattern. However, you can use the HD statistic to find the estimate of k, the following codes plot HD vs. k for a cluster of size 4, the k that gives the smallest values of HD is our estimate of the optimal size of categories.
 ```
 nclus<-4
 acc<-NULL
