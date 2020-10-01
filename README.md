@@ -1,5 +1,5 @@
 # DTGA: Discretized time series global Alignment
-The distance dissimilarity measure in time series is an increasingly popular research topic due to its applicability in machine learning tasks, because a lot of data have a temporal nature. [Amiri et al. (2020)]() proposed a dissimilarity technique that provide accurate method for dissimilarity. The proposed method is fully nonparametric, we implemented the methods discussed [Amiri et al. (2020)]() in `R` and uploaded in Github.
+The distance similarity\dissimilarity measure in time series is an increasingly popular research topic due to its applicability in machine learning tasks, because a lot of data have a temporal nature. [Amiri et al. (2020)]() proposed a  new method to compute the dissimilarity between time series data  that provides an accurate result in comparition with existing dissimilarities. The proposed method is fully nonparametric, we implemented the methods discussed [Amiri et al. (2020)]() in `R` and uploaded in Github.
 
 ## Contents
 - [DTGA](#dtga)
@@ -75,7 +75,7 @@ ggplot(data_acc, aes(x =k, y = acc)) +
 ```
 
 # References
-Amiri, S. et al. (2020). Dissimilarity of time series using Discretized time series global Alignment; with application of transportation data. ([pdf](), [journal]())
+Amiri, S. et al. (2020). Dissimilarity of time series using Discretized time series global Alignment; with application of transportation data. On going ([pdf](), [journal]())
 
 ## License
 Copyright (c) 2020 Saeid Amiri
